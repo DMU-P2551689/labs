@@ -1,0 +1,269 @@
+a {
+  font-family: Courier New;
+  color: white;
+  text-decoration: none;
+}
+
+/* The text-decoration style attribute for the links was set to none to remove the underlining */
+
+a:hover {
+  color: 	#C2A06D;
+}
+
+/* The hover rule was applied enabling the change of the colour of the font when the mouse is hovered over the links */
+
+footer, p, header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.mediastudent {
+  font-family: Courier New;
+  text-align: center;
+  font-size: 1.2em;
+  color: #C2A06D;
+  margin-top: -40px;
+}
+
+.about {
+  margin-top: 160px;
+  margin-right: 215px;
+  margin-left: 600px;
+  font-size: 1.7em;
+}
+
+.links {
+  position: fixed;
+  text-align: center;
+  font-size: 2em;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  margin-top: -50px;
+  z-index: 1;
+}
+
+.div4 {
+  text-align: center;
+}
+
+
+header {
+  text-align: center;
+  font-size: 2em;
+  transition: 1s;
+ }
+
+
+ .test1 {
+   text-align: center;
+   font-size: 2em;
+   transition: 1s;
+  }
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* The margins and padding were removed from html and body to allow the link border to reach the edges of the page */
+
+video {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+/* I added these CSS videos to centre the video onto the page */
+
+h4 {
+  font-family: Tahoma;
+  text-align: center;
+  font-size: 2.2em;
+  color: white;
+  margin-top: 60px;
+
+}
+
+h3 {
+  font-family: Tahoma;
+  text-align: left;
+  font-size: 1.2em;
+  color: #C2A06D;
+  margin-top: 20px;
+  margin-left: 180px
+}
+
+.video {
+  font-family: Tahoma;
+  text-align: left;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 10px;
+  margin-left: 180px;
+
+}
+
+.photography {
+  font-family: Tahoma;
+  text-align: left;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 60px;
+  margin-left: 180px;
+}
+
+.left
+{
+font-family: Tahoma;
+font-size: 0.9em;
+font-style: italic;
+color: #C2A06D;
+Text-align: left;
+Float: left;
+Display: block;
+padding-left: 200px;
+}
+
+.right
+{
+font-family: Tahoma;
+font-size: 0.9em;
+font-style: italic;
+color: #C2A06D;
+Float: left;
+Display: block;
+padding-left: 500px;
+}
+
+.gallery {
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+  max-width: 25%;
+
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+
+footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  font-size: 1em;
+  background-color: black;
+  font-family: Courier New;
+
+}
+
+
+.contact-form {
+  text-align: center;
+  padding-left: 575px;
+  margin-top: -68px;
+}
+
+.info {
+  font-size: 1.3em;
+  padding-left: 200px;
+}
+
+}
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  margin-top: -50px;
+  margin-left: 730px;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: Arial;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: #C2A06D;
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
