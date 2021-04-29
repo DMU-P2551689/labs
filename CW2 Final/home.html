@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+      <!-- <link> element was used to link the html file to the css file-->
+  </head>
+  <body>
+
+    <style>
+
+    body {
+      background-image: url('camera.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    img {
+      float: left;
+      padding-right: 10px;
+      max-width: 25%;
+        margin-left: 215px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-radius: 50%;
+    }
+
+
+    </style>
+
+<!-- The <style> element is used to allow the inclusion of internal css -->
+
+<!-- <body>
+     The body element was used to make the the image the background for the entire page.
+     background-repeat: no-repeat; prevented the background image from repeating itself when you scrollLeft.
+     background-attachment: fixed; fixed the image in place so it moves as you scroll.-->
+
+<!-- <img>
+     float: left; was used to position the image to the left of text.
+     padding-right: 10px; created a spereation between the image and the text.
+     margin was used to position the image on the page.
+     border radius created an oval shaped effect for the image -->
+
+<nav class="links">
+      <a href="home.html">Home</a>
+      &nbsp;
+      <a href="portfolio.html">Portfolio</a>
+      &nbsp;
+      <a href="contact.html">Contact</a>
+</nav>
+
+<!-- The <nav> element was used as links were being used.
+     The <a> element was used to create links for each page.
+     &nbsp (non breaking space) was added to create space between the page links-->
+
+<!-- The class name is used in all html files to enable the styling of different sections of code through css. -->
+
+      <header>
+        <h1>Joe Kennedy</h1>
+      </header>
+
+<div class="mediastudent">
+ <h2>Media Student</h2>
+</div>
+
+<div class="div2">
+ <video controls width="70%" poster="video/showreel.png">
+
+ <!-- using the controls attribute I changed the width to 70% so the video was a better fit on the page.
+ The use of the poster attibute is so I can upload an image as the thumbnail for the video -->
+
+   <source src="video/video.ogv" type="video/ogv" />
+   <source src="video/video.mp4" type="video/mp4" />
+
+ <!-- I have added multiple file formats as backups if the browser used doesn't support one-->
+
+   <p> sorry your browser does not support the video element. However, you can download an MP4 <a href="video/video.mp4">here</a>.</p>
+</div>
+
+ <!-- This is uncluded to provide a fallback if none of the video formats work -->
+
+ <div class="div3">
+ <img src='images/self.png' alt='self' />
+</div>
+
+ <!-- I used the img element to import an image of the student.
+ The src attribute is used to identify the image's URL.
+ The alt attribute is also necessary here because it provides alternative information for
+ an image if I user can't view it on their browser. -->
+
+ <div class="about">
+ <p>
+   I am a Media Foundation student from Somerset, currently studying at De Montfort University, Leicester.
+   I have a passion working with cameras and videoediting.
+<br> <br>
+   My key strength as a media student is video editing.
+   I have extensive experience in this area of filmmaking, having edited music my own music video,
+   two short films and promotional videos for the Somerset Business Awards (2018)
+ </p>
+</div>
+
+<!-- <br> was used here to seperate the text into paragraphs -->
+
+<footer> <i>© 2021 by JOE KENNEDY - P2551689</i>
+  <br>
+  <b>
+  <a href="https://www.youtube.com/channel/UCVEy-ERKP3qugXMx_SmF-BQ?view_as=subscriber">Youtube</a>
+  <a href="https://twitter.com/JoeKennedy67">Twitter</a>
+  <a href="https://www.instagram.com/joe_kennedy67/">Instagram</a>
+</b>
+
+</footer>
+
+<!-- The <footer> element was used to present the social media links at the bottom of the page.
+     The <b> element styles the text in bold font. -->
+
+  </body>
+</html>
