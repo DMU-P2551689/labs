@@ -60,7 +60,7 @@ The z-index causes the menu elements to overlap the video elements with a smalle
 
 header {
   text-align: center;
-  font-size: 2em;
+  font-size: 2vw;
  }
 
 /* the text-align: center; style attribute was used here to position the header of each page in the centre */
